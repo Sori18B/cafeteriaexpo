@@ -1,6 +1,7 @@
 import { Text, TouchableOpacity, StyleSheet, View } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 
+
 const Botonmenu = ({ text, onPress, icon, iconColor }) => {
   return (
     <TouchableOpacity style={styles.button} onPress={onPress}>
